@@ -1,15 +1,15 @@
 package com.example.instagramclone.ui.login;
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
-
 import android.util.Patterns;
 
+import com.example.instagramclone.R;
 import com.example.instagramclone.data.LoginRepository;
 import com.example.instagramclone.data.Result;
 import com.example.instagramclone.data.model.LoggedInUser;
-import com.example.instagramclone.R;
+
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
 
 public class LoginViewModel extends ViewModel {
 
@@ -39,6 +39,7 @@ public class LoginViewModel extends ViewModel {
         } else {
             loginResult.setValue(new LoginResult(R.string.login_failed));
         }
+
     }
 
     public void loginDataChanged(String username, String password) {

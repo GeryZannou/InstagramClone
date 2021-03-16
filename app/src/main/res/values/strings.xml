@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">InstagramClone</string>
+    <string name="app_name">Instagram</string>
     <!-- Strings related to btnlogin -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -13,4 +13,7 @@
     <string name="take_picture">Take Picture</string>
     <string name="submit">Submit</string>
     <string name="todo">TODO</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="description">Description</string>
 </resources>
